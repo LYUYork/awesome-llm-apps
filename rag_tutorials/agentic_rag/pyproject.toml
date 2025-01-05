@@ -5,12 +5,17 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "duckduckgo-search>=7.2.0",
+    "fastapi>=0.115.6",
     "lancedb>=0.17.0",
     "openai>=1.59.3",
     "pgvector>=0.3.6",
     "phidata>=2.7.6",
     "psycopg[binary]>=3.2.3",
     "pypdf>=5.1.0",
+    "sentence-transformers>=3.3.1",
     "sqlalchemy>=2.0.36",
     "tantivy>=0.22.0",
+    "uvicorn>=0.34.0",
+    "zhipuai>=2.1.5.20241204",
 ]
